@@ -1,0 +1,29 @@
+# JAX with CUDA 12 (GPU), per https://jax.readthedocs.io/en/latest/installation.html
+# Pip wheels bundle CUDA/cuDNN; do not set LD_LIBRARY_PATH. For CPU-only use: jax==0.6.0 jaxlib==0.6.0
+jax[cuda12]==0.6.0
+flax==0.10.6
+brax==0.12.3
+optax==0.2.4
+distrax==0.1.5
+chex==0.1.89
+ml_collections==1.1.0
+einops==0.8.1
+wandb==0.19.11
+numpy==2.3.4
+scipy==1.16.3
+matplotlib==3.10.3
+pandas==2.3.3
+gym==0.26.2
+mujoco==3.3.2
+mujoco-mjx==3.3.2
+dm-env==1.6
+dm-haiku==0.0.14
+dm-tree==0.1.9
+absl-py==2.2.2
+tensorboardX==2.6.2.2
+tensorflow-probability==0.25.0
+protobuf==4.25.3
+sentry-sdk==2.27.0
+playground==0.0.4
+rlax==0.1.6
+
